@@ -1,0 +1,10 @@
+// .cdk-overlay-backdrop {
+//     background: rgba(0, 0, 0, 0.7) !important; // Arka planı koyulaştırın
+//     pointer-events: auto !important; // Diğer öğelere tıklanmasını engelleyin
+// }
+
+::ng-deep .cdk-overlay-container {
+
+    position: fixed;
+    z-index: 999999999999 !important
+}
